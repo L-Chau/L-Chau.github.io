@@ -207,7 +207,7 @@
     <div class="widget-body">
         <div id="board">
             <div class="content">
-                <p>大龄男青年在线征婚!</p>
+                <p>大龄男青年在线征婚!!!</p>
             </div>
         </div>
     </div>
@@ -525,7 +525,7 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
    
     
   <!-- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"> -->
-  <script src="//https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
   <script type="text/javascript">
   var gitalk = new Gitalk({
@@ -534,6 +534,7 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
     repo: 'L-Chau.github.io',
     owner: 'L-Chau',
     admin: ['L-Chau'],
+    proxy: ['l-chau.z13236433202.workers.dev/?https://github.com/login/oauth/access_token'],
     id: md5(location.pathname),
     distractionFreeMode: true
   })
