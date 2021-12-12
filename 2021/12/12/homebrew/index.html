@@ -17,7 +17,7 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Mac安装Homebrew | Hexo</title>
+  <title>Mac安装Homebrew | Chau - 国家一级折腾爱好者</title>
   <meta name="description" content="长话短说国内从官方镜像安装Homebrew着实不算方便，搭配镜像助手可以获得更好的效果12345678 # 1.执行安装脚本(中科大 macOS zsh)$ export HOMEBREW_BREW_GIT_REMOTE&#x3D;&quot;https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;brew.git&quot;$ export HOMEBREW_CORE_GIT_REMOTE&#x3D;&quot;h">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mac安装Homebrew">
@@ -44,6 +44,8 @@
   
   
   
+  
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.css">
   
 <meta name="generator" content="Hexo 5.4.0"></head>
 
@@ -206,7 +208,7 @@
     <div class="widget-body">
         <div id="board">
             <div class="content">
-                <p>欢迎交流与分享经验!</p>
+                <p>大龄男青年在线征婚!</p>
             </div>
         </div>
     </div>
@@ -249,9 +251,19 @@
   <div class="widget">
     <h3 class="widget-title">最新文章</h3>
     <div class="widget-body">
-      <ul class="recent-post-list list-unstyled no-thumbnail">
+      <ul class="recent-post-list list-unstyled ">
         
           <li>
+            
+            <div class="item-thumb">
+              <a href="/2021/12/12/homebrew/" class="thumb">
+    
+    
+        <span class="thumb-image thumb-none"></span>
+    
+</a>
+
+            </div>
             
             <div class="item-inner">
               <p class="item-category">
@@ -268,6 +280,16 @@
           
           <li>
             
+            <div class="item-thumb">
+              <a href="/2021/12/09/tsol/" class="thumb">
+    
+    
+        <span class="thumb-image thumb-none"></span>
+    
+</a>
+
+            </div>
+            
             <div class="item-inner">
               <p class="item-category">
                 
@@ -282,6 +304,16 @@
           </li>
           
           <li>
+            
+            <div class="item-thumb">
+              <a href="/2021/12/09/hello-world/" class="thumb">
+    
+    
+        <span class="thumb-image thumb-none"></span>
+    
+</a>
+
+            </div>
             
             <div class="item-inner">
               <p class="item-category">
@@ -389,7 +421,7 @@
     
   <section id="comments">
   	
-      <div id="vcomments"></div>
+           
     
   </section>
 
@@ -441,6 +473,8 @@
 
     <div class="copyright">
     	
+        &copy; 2021 John Doe
+        
         <div class="publishby">
         	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
         </div>
@@ -488,29 +522,23 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
    
     
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"> -->
+  <script src="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
   <script type="text/javascript">
-  var GUEST = ['nick', 'mail', 'link'];
-  var meta = 'nick,mail,link';
-  meta = meta.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#vcomments',
-    verify: false,
-    notify: false,
-    appId: '',
-    appKey: '',
-    placeholder: 'Just go go',
-    avatar: 'mm',
-    meta: meta,
-    pageSize: '10' || 10,
-    visitor: false
-  });
+  var gitalk = new Gitalk({
+    clientID: 'bb91ae31834a4ce2dbe3',
+    clientSecret: '271b23aa3ad1374bb1fc0c4f2b492001193fe18b',
+    repo: 'https://github.com/settings/applications/1786256',
+    owner: 'L-Chau',
+    admin: ['L-Chau'],
+    id: md5(location.pathname),
+    distractionFreeMode: true
+  })
+  gitalk.render('comments')
   </script>
 
-     
+      
 
 
 
