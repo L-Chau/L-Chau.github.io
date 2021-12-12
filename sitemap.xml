@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chau.ltd/about/index.html</loc>
+    
+    <lastmod>2021-12-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chau.ltd/2021/12/12/homebrew/</loc>
     
     <lastmod>2021-12-12</lastmod>
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://chau.ltd/about/index.html</loc>
+    <loc>https://chau.ltd/books/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -38,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://chau.ltd/books/index.html</loc>
-    
-    <lastmod>2021-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chau.ltd/categories/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://chau.ltd/repository/index.html</loc>
+    <loc>https://chau.ltd/tags/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://chau.ltd/tags/index.html</loc>
+    <loc>https://chau.ltd/repository/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
     
