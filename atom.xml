@@ -6,7 +6,7 @@
   <link href="http://l-chau.github.io/atom.xml" rel="self"/>
   
   <link href="http://l-chau.github.io/"/>
-  <updated>2021-12-09T10:00:03.004Z</updated>
+  <updated>2021-12-12T03:56:24.283Z</updated>
   <id>http://l-chau.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac安装Homebrew</title>
+    <link href="http://l-chau.github.io/2021/12/12/homebrew/"/>
+    <id>http://l-chau.github.io/2021/12/12/homebrew/</id>
+    <published>2021-12-12T03:51:13.000Z</published>
+    <updated>2021-12-12T03:56:24.283Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="长话短说"><a href="#长话短说" class="headerlink" title="长话短说"></a>长话短说</h2><h3 id="国内从官方镜像安装Homebrew着实不算方便，搭配镜像助手可以获得更好的效果"><a href="#国内从官方镜像安装Homebrew着实不算方便，搭配镜像助手可以获得更好的效果" class="headerlink" title="国内从官方镜像安装Homebrew着实不算方便，搭配镜像助手可以获得更好的效果"></a>国内从官方镜像安装Homebrew着实不算方便，搭配<a href="https://brew.idayer.com/guide/change-source/">镜像助手</a>可以获得更好的效果</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;长话短说&quot;&gt;&lt;a href=&quot;#长话短说&quot; class=&quot;headerlink&quot; title=&quot;长话短说&quot;&gt;&lt;/a&gt;长话短说&lt;/h2&gt;&lt;h3 id=&quot;国内从官方镜像安装Homebrew着实不算方便，搭配镜像助手可以获得更好的效果&quot;&gt;&lt;a href=&quot;#国内从官方镜</summary>
+      
+    
+    
+    
+    
+    <category term="配置" scheme="http://l-chau.github.io/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>论法的精神</title>
