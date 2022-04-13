@@ -6,7 +6,7 @@
   <link href="https://chau.ltd/atom.xml" rel="self"/>
   
   <link href="https://chau.ltd/"/>
-  <updated>2022-04-12T02:33:54.821Z</updated>
+  <updated>2022-04-13T16:12:47.930Z</updated>
   <id>https://chau.ltd/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>网易云NCM及QQ音乐等加密格式转MP3工具</title>
+    <link href="https://chau.ltd/2022/04/14/ncm-to-mp3/"/>
+    <id>https://chau.ltd/2022/04/14/ncm-to-mp3/</id>
+    <published>2022-04-13T16:09:05.000Z</published>
+    <updated>2022-04-13T16:12:47.930Z</updated>
+    
+    <content type="html"><![CDATA[<p>开了会员后下载的音乐还是只能限时收听是挺烦的，更何况现在各个平台曲库都不全，还无法导入到其他设备听，很久之前在网上发现了这个工具，本人非开发者，上传至Github上供大家下载以及自己备份，以便某天需要时方便使用。</p><h3 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接"></a>下载链接</h3><p><a href="https://github.com/L-Chau/NCM-to-MP3/archive/refs/heads/main.zip">点这里</a></p><h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><p>下载完成解压后，打开文件夹内index.html，将需要转化格式的音乐导入即可。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;开了会员后下载的音乐还是只能限时收听是挺烦的，更何况现在各个平台曲库都不全，还无法导入到其他设备听，很久之前在网上发现了这个工具，本人非开发者，上传至Github上供大家下载以及自己备份，以便某天需要时方便使用。&lt;/p&gt;
+&lt;h3 id=&quot;下载链接&quot;&gt;&lt;a href=&quot;#下载</summary>
+      
+    
+    
+    
+    
+    <category term="工具" scheme="https://chau.ltd/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mac｜根据电源自动切换显卡</title>
     <link href="https://chau.ltd/2022/04/12/Mac-Set-GPU-behaviour-base-on-power-source/"/>
     <id>https://chau.ltd/2022/04/12/Mac-Set-GPU-behaviour-base-on-power-source/</id>
     <published>2022-04-12T02:16:47.000Z</published>
-    <updated>2022-04-12T02:33:54.821Z</updated>
+    <updated>2022-04-13T16:08:37.406Z</updated>
     
     <content type="html"><![CDATA[<p>许多Mac用户应该以为设置-电池-自动切换图形卡是在连接线缆时自动切换至独立显卡，结果发现是无论采取哪种供能方法都默认切换成独立显卡。在外出办公时如果一直用独显电池会不那么耐用，安装gfxcardstatus也没法实现自动切换的功能，因此向大家推荐以下方法来实现AC供电时默认使用独立显卡，电池供电时采取系统默认调度自动切换。</p><h3 id="参数说明"><a href="#参数说明" class="headerlink" title="参数说明"></a>参数说明</h3><p>pmset -c 用于控制ac供电情况<br>pmset -b 用于控制电池供电情况<br>gpuswitch 0 使用集成显卡<br>gpuswitch 1 使用独立显卡<br>gpuswitch 2 系统默认调度</p><h3 id="调度"><a href="#调度" class="headerlink" title="调度"></a>调度</h3><p>根据以上参数，如果我们希望在电池供电时默认调度，在AC供电时切换独显，则在Terminal内输入</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs zsh"> <span class="hljs-comment"># 1.电池供电默认调度</span><br>$ sudo pmset -b gpuswitch 2<br> <span class="hljs-comment"># 2.AC供电切换独显</span><br>$ sudo pmset -c gpuswitch 1<br></code></pre></td></tr></table></figure><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>执行完这些操作后你的Mac应该已经能实现你所预想的功能，请不要在设置-电池-自动切换图形卡选项上再进行操作。如想恢复成Mac默认，则只需执行以下即可恢复。</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs zsh">$ sudo pmset -b gpuswitch 2<br>$ sudo pmset -c gpuswitch 2<br></code></pre></td></tr></table></figure>]]></content>
     
@@ -34,7 +57,7 @@
     
     
     
-    <category term="配置" scheme="https://chau.ltd/tags/%E9%85%8D%E7%BD%AE/"/>
+    <category term="MAC" scheme="https://chau.ltd/tags/MAC/"/>
     
   </entry>
   
@@ -43,7 +66,7 @@
     <link href="https://chau.ltd/2021/12/12/homebrew/"/>
     <id>https://chau.ltd/2021/12/12/homebrew/</id>
     <published>2021-12-12T03:51:13.000Z</published>
-    <updated>2022-04-12T02:34:06.609Z</updated>
+    <updated>2022-04-13T16:08:24.788Z</updated>
     
     <content type="html"><![CDATA[<h2 id="长话短说"><a href="#长话短说" class="headerlink" title="长话短说"></a>长话短说</h2><h3 id="国内从官方镜像安装Homebrew着实不算方便，搭配镜像助手可以获得更好的效果"><a href="#国内从官方镜像安装Homebrew着实不算方便，搭配镜像助手可以获得更好的效果" class="headerlink" title="国内从官方镜像安装Homebrew着实不算方便，搭配镜像助手可以获得更好的效果"></a>国内从官方镜像安装Homebrew着实不算方便，搭配<a href="https://brew.idayer.com/guide/change-source/">镜像助手</a>可以获得更好的效果</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs zsh"> <span class="hljs-comment"># 1.执行安装脚本(中科大 macOS zsh)</span><br>$ <span class="hljs-built_in">export</span> HOMEBREW_BREW_GIT_REMOTE=<span class="hljs-string">&quot;https://mirrors.ustc.edu.cn/brew.git&quot;</span><br>$ <span class="hljs-built_in">export</span> HOMEBREW_CORE_GIT_REMOTE=<span class="hljs-string">&quot;https://mirrors.ustc.edu.cn/homebrew-core.git&quot;</span><br>$ /bin/bash -c <span class="hljs-string">&quot;<span class="hljs-subst">$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install.sh)</span>&quot;</span><br> <span class="hljs-comment"># 2.安装完成后设置</span><br>$ <span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles&#x27;</span> &gt;&gt; ~/.zprofile<br>$ <span class="hljs-built_in">source</span> ~/.zprofile<br> <span class="hljs-comment"># 执行第二步时会需要安装一个xcode组件，需留意终端内反馈的信息。</span><br></code></pre></td></tr></table></figure><h3 id="如果已安装需要换源"><a href="#如果已安装需要换源" class="headerlink" title="如果已安装需要换源"></a>如果已安装需要换源</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs zsh"> <span class="hljs-comment">#脚本（清华 macOS zsh）</span><br>$ git -C <span class="hljs-string">&quot;<span class="hljs-subst">$(brew --repo)</span>&quot;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git<br>$ git -C <span class="hljs-string">&quot;<span class="hljs-subst">$(brew --repo homebrew/core)</span>&quot;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git<br>$ git -C <span class="hljs-string">&quot;<span class="hljs-subst">$(brew --repo homebrew/cask)</span>&quot;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask.git<br>$ brew update<br><br>$ <span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/bottles&#x27;</span> &gt;&gt; ~/.zprofile<br>$ <span class="hljs-built_in">source</span> ~/.zprofile<br></code></pre></td></tr></table></figure><h3 id="完成后可使用brew-–version查看版本号"><a href="#完成后可使用brew-–version查看版本号" class="headerlink" title="完成后可使用brew –version查看版本号"></a>完成后可使用brew –version查看版本号</h3>]]></content>
     
@@ -56,7 +79,7 @@
     
     
     
-    <category term="配置" scheme="https://chau.ltd/tags/%E9%85%8D%E7%BD%AE/"/>
+    <category term="MAC" scheme="https://chau.ltd/tags/MAC/"/>
     
   </entry>
   
