@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://chau.ltd/tags/index.html</loc>
+    <loc>https://chau.ltd/repository/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://chau.ltd/repository/index.html</loc>
+    <loc>https://chau.ltd/tags/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -135,7 +135,7 @@
   </url>
   
   <url>
-    <loc>https://chau.ltd/tags/Recipe/</loc>
+    <loc>https://chau.ltd/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -149,7 +149,7 @@
   </url>
   
   <url>
-    <loc>https://chau.ltd/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://chau.ltd/tags/Recipe/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
